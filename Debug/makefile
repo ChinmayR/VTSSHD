@@ -44,7 +44,7 @@ all: FYDProject
 FYDProject: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross G++ Linker'
-	arm-linux-gnueabi-g++ -L/usr/arm-linux-gnueabi/include -L/opt/ros/hydro/include -o "FYDProject" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-linux-gnueabi-g++ -L/usr/arm-linux-gnueabi/include -L/opt/ros/hydro/include -L/home/chinmay/Desktop/fftw-3.3.3 -o "FYDProject" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

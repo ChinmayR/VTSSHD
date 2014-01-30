@@ -16,8 +16,6 @@ private:
     static bool instanceFlag;
     static GlobalVarStore *single;
 
-    static char rawDataBuffer[128];
-
     GlobalVarStore();
 
 public:

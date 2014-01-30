@@ -4,14 +4,17 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../src/FFTWrapper.cpp \
 ../src/FYDProject.cpp \
 ../src/GlobalVarStore.cpp 
 
 OBJS += \
+./src/FFTWrapper.o \
 ./src/FYDProject.o \
 ./src/GlobalVarStore.o 
 
 CPP_DEPS += \
+./src/FFTWrapper.d \
 ./src/FYDProject.d \
 ./src/GlobalVarStore.d 
 

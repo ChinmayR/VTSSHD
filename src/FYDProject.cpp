@@ -7,6 +7,7 @@
 #include <poll.h>
 #include <iostream>
 #include "GlobalVarStore.h"
+#include "FFTWrapper.h"
 
 using namespace std;
 
@@ -254,6 +255,11 @@ int main(int argc, char **argv, char **envp)
 
 	GlobalVarStore *globStore = GlobalVarStore::getInstance();
 	globStore->testMethod();
+
+	FFTWrapper *firstFFT = new FFTWrapper(20);
+	firstFFT->createPlan();
+	//firstFFT->runFFT(
+	firstFFT->destroyPlan();
 
 	return 0;
 }

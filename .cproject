@@ -44,6 +44,7 @@
 								<option id="gnu.cpp.link.option.paths.692829383" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
 									<listOptionValue builtIn="false" value="/usr/arm-linux-gnueabi/include"/>
 									<listOptionValue builtIn="false" value="/opt/ros/hydro/include"/>
+									<listOptionValue builtIn="false" value="/home/chinmay/Desktop/fftw-3.3.3"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.714529144" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
@@ -109,6 +110,7 @@
 								<option id="gnu.cpp.link.option.paths.1625809930" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
 									<listOptionValue builtIn="false" value="/usr/arm-linux-gnueabi/include"/>
 									<listOptionValue builtIn="false" value="/opt/ros/hydro/include"/>
+									<listOptionValue builtIn="false" value="/home/chinmay/Desktop/fftw-3.3.3/tools"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.399856194" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
@@ -192,6 +194,13 @@
 			</profile>
 		</scannerConfigBuildInfo>
 	</storageModule>
-	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/FYDProject"/>
+		</configuration>
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/FYDProject"/>
+		</configuration>
+	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 </cproject>
